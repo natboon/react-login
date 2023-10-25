@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bac5cd;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+    margin: 20px 0;
+}
+
+.booklist {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.book {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book img {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.book h2 {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.book p {
+    font-size: 16px;
+    color: #777;
+    margin: 10px 0;
+}
+
+.book span {
+    font-size: 20px;
+    color: rgb(92, 70, 70);
+    padding: 120px;
+}
+
+.delete {
+    background-color: #ec4343; /* Red background color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 45px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block; /* Display the button inline */
+    text-align: center; /* Center-align the button text */
+    font-weight: bold; /* Make the text bold */
+    text-transform: uppercase; /* Uppercase text */
+}
+
+.update {
+    background-color: #43deec; /* Red background color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 45px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block; /* Display the button inline */
+    text-align: center; /* Center-align the button text */
+    font-weight: bold; /* Make the text bold */
+    text-transform: uppercase; /* Uppercase text */
+}
+
+div button {
+    background-color: #ecd043; /* Red background color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block; /* Display the button inline */
+    text-align: center; /* Center-align the button text */
+    font-weight: bold; /* Make the text bold */
+    text-transform: uppercase; /* Uppercase text */
+}
+
+.form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 200px;
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.formButton {
+    background-color: #cc0055;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
